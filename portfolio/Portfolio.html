@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="Portfolio.css"/>
+        <link 
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+         rel="stylesheet"/>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#home" class="logo">Atefa <span>Askari</span></a>
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hi, It's <span>Atefa</span></h1>
+                <h3>I'm a <span>Frontend Developer</span></h3>
+                <p>
+                    As a frontend developer, I specialize in
+                    crafting immersive digital experiences that
+                    captivate users. With expertise in HTML, CSS,
+                    and JavaScript, I seamlessly translate design
+                    mockups into visually stunning and responsive
+                    interfaces. My keen eye for detail ensures that
+                    every element functions flawlessly across different
+                    devices and browsers, delivering a seamless user
+                    experience. 
+                </p>
+                <div class="social-icons">
+                    <a href="https://github.com/">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="www.linkedin.com/in/atefa-askari-a18454299">
+                        <i class="bx bxl-linkedin-square"></i>
+                    </a>
+                    <a href="#"> 
+                        <i class="bx bxl-instagram-alt"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                </div>
+                <div class="btn-group">
+                    <a href="#" class="btn">Hire</a>
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+
+            </div>
+            <div class="home-img">
+                <img src="image.jpeg" alt="">
+            </div>
+        </section> 
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="image.jpeg" alt="">
+            </div>
+            <div class="about-content">
+                <h2>About<span> Me</span></h2>
+                <P>At 21, I'm immersed in the world of frontend
+                   development, merging design with code to create
+                   captivating digital experiences. Proficient in 
+                   HTML, CSS, and JavaScript, I thrive on the challenge
+                   of blending aesthetics with functionality. 
+                   Each line of code represents an opportunity to craft
+                   something impactful. Excited by the endless 
+                   possibilities of technology, I'm committed to pushing 
+                   boundaries and shaping the digital landscape.</P>
+                   <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <h2 class="heading">Services</h2>
+            <div class="services-container">
+               <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxs-devices"></i>
+                    <h4>Web Developer</h4>
+                    <p>Frontend web development focuses on creating
+                       the visual and interactive parts of websites 
+                       and web applications using HTML, CSS, and JavaScript. 
+                       It involves building user interfaces that are intuitive, 
+                       responsive.</p>
+                </div>
+               </div>
+               <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>frontend Web Development</h4>
+                    <p>frontend web development involves creating the 
+                       server-side logic and infrastructure that powers 
+                       websites and web applications. Backend developers 
+                       work with languages like Python, Ruby, Java, or Node.js 
+                       to handle data storage, user authentication, and business 
+                       logic. </p>
+                </div>
+               </div>
+               <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>Backend Web Development</h4>
+                    <p>Backend web development involves creating the 
+                       server-side logic and infrastructure that powers 
+                       websites and web applications. Backend developers 
+                       work with languages like Python, Ruby, Java, or Node.js 
+                       to handle data storage, user authentication, and business 
+                       logic. </p>
+                </div>
+               </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact<span> Me</span></h2>
+            <form action="">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email"> 
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Phone Number">
+                        <input type="text" placeholder="Subject"> 
+                    </div>
+                </div>
+                <div class="input-group-2">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn" >
+                </div>
+            </form>
+        </section>
+        <footer class="footer">
+            <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                © Atefa Askari | All Rights Reserved
+            </p>
+        </footer>
+
+        <script src="portfolio.js"></script>
+
+
+    </body>
+</html>
